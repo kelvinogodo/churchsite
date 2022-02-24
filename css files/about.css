@@ -79,7 +79,7 @@
     justify-content: center;
     margin: 10px;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px rgba(129, 129, 129, 0.911);
+    box-shadow: 0px 0px 15px rgba(207, 207, 207, 0.911);
     padding: 20px;
 }
 .leader-card img{
@@ -110,4 +110,76 @@
 }
 .bigger-text{
     color: white;
+}
+@media (max-width:1024px) and (min-width:768px){
+    .announcement-card h1{
+        font-size: 2.8rem;
+    }
+    .bigger{
+        margin-bottom: 0px;
+        height: 400px;
+    }
+    .leaders-card-container{
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+    }
+    .leader-card:last-child{
+        align-self: flex-start;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:767px) {
+    .login-container{
+        display: none;
+    }
+    .announcement-card{
+        height: auto;
+        margin: auto; 
+        padding: 20px 0px 40px 0px ;
+        backdrop-filter: blur(0px);
+    }
+    .announcement-card h1{
+        font-size: 1.5rem;
+        width: 100%;
+        margin: auto;
+    }
+    .announcement-card h2{
+        font-size: 1.3rem;
+    }
+    .leaders-card-container{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .lead-with-love-text{
+        width: 90%;
+    }
+    .lead-with-love-text h1, .lead-with-love-text p{
+        width: 100%;
+    }
+    .lead-with-love-text h1{
+        font-size: 1.5rem;
+    }
+    .about-link-container{
+        width: 90%;
+    }
+    .about-link-container .know-us{
+        font-size: 1.2rem;
+    }
+    .about-link-container
+    .leader-card:first-child{
+        margin-top: 0px;
+    }
+    .leader-card{
+        width: 90%;
+        margin-top: 40px;
+       word-wrap: break-word;
+       height: auto;
+    }
+    .bigger{
+        height: auto;
+        width: 90%;
+        margin: 20px 0px 10px 0px;
+    }
 }
