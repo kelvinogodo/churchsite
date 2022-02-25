@@ -341,6 +341,11 @@ header{
     color: black;
     width: 90%;
    }
+   .carousel-item{
+       margin-bottom: 20px;
+       height: auto;
+   }
+   
    .right-arrow{
        height: 50px;
        width: 50px;
