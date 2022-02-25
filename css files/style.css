@@ -808,7 +808,6 @@ footer{
    
     .menu-list a{
         display: flex;
-        /* background-color: red; */
         align-items: flex-start;
         justify-content: space-between;
         width: 100%;
@@ -879,7 +878,7 @@ footer{
        margin: auto;
    }
    .podcast-img-card{
-       width: 90%; 
+       width: 100%; 
    }
    .overlay{
        padding: 20px;
@@ -893,7 +892,7 @@ footer{
        position: static;
    }
    .verse-of-the-day{
-       width: 90%;
+       width: 100%;
        padding: 20px 10px 10px 20px;
    }
    .lead-with-love-text p, .lead-with-love-text h1{

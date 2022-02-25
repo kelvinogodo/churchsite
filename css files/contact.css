@@ -135,3 +135,29 @@ textarea{
        width: 100%;
        object-fit: cover;
    }
+   @media screen and (max-width:767px){
+    .contact-landpage{
+        flex-direction: column;
+        padding: 0px 20px 0px 20px;
+        width: 100%;
+    }
+    .form-container,.location-map-container{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 10px 10px 10px 10px ;
+    }   
+    .line{
+        margin-left: 0px;
+    }
+    .contact-header h1, .contact-header p{
+        margin-left: 0px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .comment-form input, .comment-form textarea,.send-btn {
+        width: 100%;
+    }
+   }
