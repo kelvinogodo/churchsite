@@ -626,6 +626,9 @@ footer{
     justify-content: space-around;
 }
 @media (max-width:1024px) and (min-width:768px) {
+    .login-container{
+        display: none;
+    }
     .menu-container{
         width: 60px;
         height: 80%;
@@ -639,7 +642,7 @@ footer{
         height: 4px;
         width: 35px;
         border-radius: 5px;
-        background-color: white;
+        background-color: black;
         margin: 3px;
     }
     .navbar{
@@ -741,6 +744,9 @@ footer{
     }
 }
 @media screen and (max-width: 767px){
+    .login-container{
+        display: none;
+    }
     .menu-container{
         width: 60px;
         height: 80%;
@@ -755,7 +761,7 @@ footer{
         height: 4px;
         width: 35px;
         border-radius: 5px;
-        background-color: white;
+        background-color: black;
         margin: 3px;
     }
     .navbar{
